@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<herostore>
+<menu>
+<name>LG</name>
+<img>../main/images/lggram.jpg</img> 
+<price>1,250,000</price>
+<CPU>11세대 인텔 코어 프로세서 탑재 </CPU>
+<gtx>GTX1660</gtx>
+</menu>
+
+<menu>
+<name>DELL</name>
+<img>../main/images/dell.jpg</img> 
+<price>1,300,000</price>
+<CPU>10세대 인텔 코어  프로세서 탑재</CPU>
+<gtx>RTX2080</gtx>
+</menu>
+
+<menu>
+<name>SAMSUNG</name>
+<img>../main/images/samsung.jpg</img> 
+<price>1,800,000</price>
+<CPU>10세대 인텔 코어  프로세서 탑재</CPU>
+<gtx>GTX1660-SUPER</gtx>
+
+</menu>
+</herostore>
