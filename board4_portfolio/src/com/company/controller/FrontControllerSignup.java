@@ -57,6 +57,7 @@ public class FrontControllerSignup extends HttpServlet {
 	protected void actionDo(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		request.setCharacterEncoding("UTF-8");
+		//문자 정리
 		response.setContentType("text/html; charset=UTF-8");
 		PrintWriter out = response.getWriter();
 		// 이동한 패치 설정

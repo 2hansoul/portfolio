@@ -108,6 +108,7 @@
 					alert("아이디 중복체크 하세요");
 					return false;
 				}
+				//dao에서 중복이면 1,아니면 0
 				if ($("#mname").val() == "") {
 					alert("빈칸입니다");
 					$("#mname").focus();
@@ -154,7 +155,7 @@
 	<script src="https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
 <script>
 $(function(){
-	$("#postcode").click(function(){
+	$("#postcode").click(function(){ //클릭 이벤트 걸어줌
 		alert("우편번호검색입니다");
 	    new daum.Postcode({
 	        oncomplete: function(data) {

@@ -80,8 +80,8 @@ out.println("검색:"+dao.search("ff"));
 
 
 <h3 class="panel-heading">3.frontcontroller</h3>
- <% response.sendRedirect(request.getContextPath()+"/uploadList1.vi"); %> 
-
+<% response.sendRedirect(request.getContextPath()+"/uploadList1.vi"); %> 
+<%-- <% response.sendRedirect(request.getContextPath()+"/list.do"); %> --%>
 
 <!-- http://leed2205.cafe24.com/board4_page/main/mainpage.jsp -->
 </div>
